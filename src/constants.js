@@ -50,6 +50,16 @@ import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 
+//Certification Logo's 
+
+import nptelLogo from './assets/Certification_logo/nptel.png';
+import awsLogo from './assets/Certification_logo/aws.png';
+import glLogo from './assets/Certification_logo/gl.png';
+import hLogo from './assets/Certification_logo/h.png';
+import microLogo from './assets/Certification_logo/micro.png';
+import tataLogo from './assets/Certification_logo/tata.png';
+import unstopLogo from './assets/Certification_logo/unstop.png';
+
 
 export const SkillsInfo = [
   {
@@ -153,47 +163,47 @@ export const SkillsInfo = [
       ],
     },*/
   ];
-  
-  export const education = [
-    {
-      id: 0,
-      img: MumLogo,
-      school: "University of Mumbai",
-      date: "Aug 2023 - Jul2025",
-      grade: "8.66 CGPA",
-      desc:  "Completed a comprehensive postgraduate program focused on advanced computer science concepts, software development, and IT management. The curriculum covered programming, database systems, operating systems, networking, software engineering, project management, and emerging technologies, complemented by practical lab work and industry-oriented projects. Gained strong problem-solving skills, analytical thinking, and proficiency in developing robust, scalable, and innovative software solutions.",
-     degree: "Master of Computer Applications - MCA",
-    },
-    {
-      id: 1,
-      img: MgkLogo,
-      school: "Mahatma Gandhi Kashi Vidyapith University",
-      date: "Jul 2019 - Dec 2022",
-      grade: "72 %",
-      desc: "Completed a comprehensive undergraduate program focused on computer applications, programming, and information technology. The curriculum covered programming languages, database systems, operating systems, computer networks, software engineering, mathematics, and web development, complemented by practical lab work and project-based learning. Gained a strong foundation in application development, logical reasoning, and technical problem-solving, with the ability to design and implement efficient, user-focused software solutions.",
-      degree: "Bachelor of Computer Application - BCA",
-    },
-    {
-      id: 2,
-      img: UpLogo,
-      school: "Board Of High School and Intermediate Education Uttar Pradesh",
-      date: "Apr 2018 - Apr 2019",
-      grade: "60 %",
-      desc: "Completed senior secondary education in the Science stream with Physics, Chemistry, and Mathematics as core subjects, along with English and other electives. The curriculum provided a strong foundation in analytical reasoning, quantitative problem-solving, and scientific principles, preparing for higher studies in computer science and technology.",
-      degree: "Class 12th - Intermediate Examination",
-    },
-    {
-      id: 3,
-      img: UpLogo,
-      school: "Board Of High School and Intermediate Education Uttar Pradesh",
-      date: "Apr 2016 - Jun 2017",
-      grade: "81 %", 
-      desc: " Completed secondary education with a curriculum covering mathematics, science, social studies, and languages, including Hindi and English. Built a solid academic foundation, strengthened analytical and problem-solving skills, and prepared for higher studies in the science stream.",
-      degree: "Class 10th - High School Examination",
-    },
-  ];
-  
-  export const projects = [
+
+export const education = [
+  {
+    id: 0,
+    img: MumLogo,
+    school: "University of Mumbai",
+    date: "Aug 2023 - Jul 2025",
+    grade: "8.66 CGPA",
+    desc:  "Completed a comprehensive postgraduate program focused on advanced computer science concepts, software development, and IT management. The curriculum covered programming, database systems, operating systems, networking, software engineering, project management, and emerging technologies, complemented by practical lab work and industry-oriented projects. Gained strong problem-solving skills, analytical thinking, and proficiency in developing robust, scalable, and innovative software solutions.",
+    degree: "Master of Computer Applications - MCA",
+  },
+  {
+    id: 1,
+    img: MgkLogo,
+    school: "Mahatma Gandhi Kashi Vidyapith University",
+    date: "Jul 2019 - Dec 2022",
+    grade: "72 %",
+    desc: "Completed a comprehensive undergraduate program focused on computer applications, programming, and information technology. The curriculum covered programming languages, database systems, operating systems, computer networks, software engineering, mathematics, and web development, complemented by practical lab work and project-based learning. Gained a strong foundation in application development, logical reasoning, and technical problem-solving, with the ability to design and implement efficient, user-focused software solutions.",
+    degree: "Bachelor of Computer Application - BCA",
+  },
+  {
+    id: 2,
+    img: UpLogo,
+    school: "Board Of High School and Intermediate Education Uttar Pradesh",
+    date: "Apr 2018 - Apr 2019",
+    grade: "60 %",
+    desc: "Completed senior secondary education in the Science stream with Physics, Chemistry, and Mathematics as core subjects, along with English and other electives. The curriculum provided a strong foundation in analytical reasoning, quantitative problem-solving, and scientific principles, preparing for higher studies in computer science and technology.",
+    degree: "Class 12th - Intermediate Examination",
+  },
+  {
+    id: 3,
+    img: UpLogo,
+    school: "Board Of High School and Intermediate Education Uttar Pradesh",
+    date: "Apr 2016 - Jun 2017",
+    grade: "81 %", 
+    desc: " Completed secondary education with a curriculum covering mathematics, science, social studies, and languages, including Hindi and English. Built a solid academic foundation, strengthened analytical and problem-solving skills, and prepared for higher studies in the science stream.",
+    degree: "Class 10th - High School Examination",
+  },
+];
+
+export const projects = [
     {
       id: 0,
       title: "SketchSence",
@@ -286,3 +296,86 @@ export const SkillsInfo = [
       webapp: "https://removeyourbg.netlify.app/",
     },*/
   ];  
+
+// certifications data
+
+export const certifications = [
+  {
+    id: 1,
+    title: "Data Structure and Algorithms using Java",
+    provider: "NPTEL",
+    date: "Jul-Oct 2024",
+    //credential: "NPTEL24CS96S353500508",
+    link: "https://drive.google.com/file/d/1nntce5m2CV6V8jEilIydc6NIpFkEAeWm/view?usp=drive_link",
+    img: nptelLogo
+  },
+  {
+    id: 2,
+    title: "Data Base Management System",
+    provider: "NPTEL",
+    date: "Jul-Sept 2024",
+    //credential: "NPTEL24CS75S241901399",
+    link: "https://drive.google.com/file/d/1ZIcXR0Y0XXFirJ9m7dHP5MwEW_Vu8Vy3/view?usp=drive_link",
+    img: nptelLogo
+  },
+  {
+    id: 3,
+    title: "AWS Cloud Practitioner Essentials",
+    provider: "Amazon Web Services (AWS)",
+    date: "7 Nov 2024",
+    //credential: "134_3_5892028_1720642440",
+    link: "https://drive.google.com/file/d/1MJLei0u0qdFq4GNB0Kl-RJBj_-lYvY_a/view?usp=drive_link",
+    img: awsLogo
+  },
+  {
+    id: 4,
+    title: "Java Programming",
+    provider: "Great Learning",
+    date: "July 2024",
+    link: "https://drive.google.com/file/d/1M6oP3DVSyJrRizI0N1gVIjxL2Yx2IOGj/view?usp=drive_link",
+    img: glLogo
+  },
+  {
+    id: 5,
+    title: "Programming Basic",
+    provider: "Great Learning",
+    date: "July 2024",
+    link: "https://drive.google.com/file/d/1aMI8IX5N49W9Luec4OaxvjBsdF6hKX0R/view?usp=drive_linktps://www.greatlearning.in",
+    img: glLogo
+  },
+  {
+    id: 6,
+    title: "Python Basic",
+    provider: "HackerRank",
+    date: "24 Aug 2024",
+    //credential: "871C9B9CDB93",
+    link: "https://drive.google.com/file/d/1UZP6tF90__ff9UgwqYxM1Cfa3TEwpjgr/view?usp=drive_link",
+    img: hLogo
+  },
+  {
+    id: 7,
+    title: "Career Essentials in Data Analysis",
+    provider: "Microsoft & LinkedIn",
+    date: "Feb 2024",
+    link: "https://drive.google.com/file/d/1_G7ynQzZAXQbL4pQHnc8ZJGBwmu5MyL9/view?usp=drive_linkhttps://www.linkedin.com/learning",
+    img: microLogo
+  },
+  {
+    id: 8,
+    title: "Data Visualization: Empowering Business with Insights",
+    provider: "Tata Forage",
+    date: "2 Mar 2025",
+    //credential: "avNMiTkkEWPytvjNG",
+    link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/MyXvBcppsW2FkNYCX_ifobHAoMjQs9s6bKS_zDKtrBDSnGGk6p6Td_1740892552890_completion_certificate.pdf",
+    img: tataLogo
+  },
+  {
+    id: 9,
+    title: "Tata Crucible Quiz 2025 – Level 1 Participation",
+    provider: "Unstop",
+    date: "May 2025",
+    //credential: "00aab227-fd2c-4c30-ab0e-ba4c56bbd529",
+    link: "https://unstop.com/certificate-preview/00aab227-fd2c-4c30-ab0e-ba4c56bbd529?utm_campaign=site-emails",
+    img: unstopLogo
+  }
+];

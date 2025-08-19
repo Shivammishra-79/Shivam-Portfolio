@@ -10,21 +10,32 @@ const Footer = () => {
     }
   };
 
+  const menuItems = [
+    { name: "About", id: "about" },
+    { name: "Skills", id: "skills" },
+    { name: "Experience", id: "experience" },
+    { name: "Projects", id: "work" }, // "work" matches Navbar id
+    { name: "Certification", id: "certification" }, // ✅ corrected
+    { name: "Education", id: "education" },
+  ];
+
+  const socialLinks = [
+    { icon: <FaFacebook />, link: "https://www.facebook.com/Shivammishra.7317/" },
+    { icon: <FaTwitter />, link: "https://x.com/Sammishra79" },
+    { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/sammishr/" },
+    { icon: <FaInstagram />, link: "https://www.instagram.com/shivam_m1shra/" },
+    //{ icon: <FaYoutube />, link: "https://www.youtube.com/@SamMishra-r4h" },
+  ];
+
   return (
     <footer className="text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw]">
       <div className="container mx-auto text-center">
         {/* Name / Logo */}
         <h2 className="text-xl font-semibold text-purple-500">Shivam Mishra</h2>
 
-        {/* Navigation Links - Responsive */}
+        {/* Navigation Links */}
         <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4">
-          {[
-            { name: "About", id: "about" },
-            { name: "Skills", id: "skills" },
-            { name: "Experience", id: "experience" },
-            { name: "Projects", id: "projects" },
-            { name: "Education", id: "education" },
-          ].map((item, index) => (
+          {menuItems.map((item, index) => (
             <button
               key={index}
               onClick={() => handleScroll(item.id)}
@@ -35,16 +46,9 @@ const Footer = () => {
           ))}
         </nav>
 
-        {/* Social Media Icons - Responsive */}
+        {/* Social Media Icons */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
-          {[
-            { icon: <FaFacebook />, link: "https://www.facebook.com/Shivammishra.7317/" },
-            { icon: <FaTwitter />, link: "https://x.com/Sammishra79" },
-            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/sammishr/" },
-            { icon: <FaInstagram />, link: "https://www.instagram.com/shivam_m1shra/" },
-            { icon: <FaYoutube />, link: "https://www.youtube.com/@SamMishra-r4h" },
-            
-          ].map((item, index) => (
+          {socialLinks.map((item, index) => (
             <a
               key={index}
               href={item.link}
