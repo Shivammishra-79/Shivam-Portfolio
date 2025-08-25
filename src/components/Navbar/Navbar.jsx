@@ -126,7 +126,7 @@ const Navbar = ({ onLogoClick }) => {
           </a>
         </div>
 
-        {/* Mobile Toggle */}
+         {/* Mobile Menu Icon */}
         <div className="md:hidden">
           {isOpen ? (
             <FiX
@@ -141,6 +141,44 @@ const Navbar = ({ onLogoClick }) => {
           )}
         </div>
       </div>
+
+      {/* Mobile Menu Items */}
+      {isOpen && (
+        <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#050414] bg-opacity-50 backdrop-filter backdrop-blur-lg z-50 rounded-lg shadow-lg md:hidden">
+          <ul className="flex flex-col items-center space-y-4 py-4 text-gray-300">
+            {menuItems.map((item) => (
+              <li
+                key={item.id}
+                className={`cursor-pointer hover:text-white ${
+                  activeSection === item.id ? "text-[#8245ec]" : ""
+                }`}
+              >
+                <button onClick={() => handleMenuItemClick(item.id)}>
+                  {item.label}
+                </button>
+              </li>
+            ))}
+            <div className="flex space-x-4">
+              <a
+                href="https://github.com/Shivammishra-79"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white"
+              >
+                <FaGithub size={24} />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/sammishr/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white"
+              >
+                <FaLinkedin size={24} />
+              </a>
+            </div>
+          </ul>
+        </div>
+      )}
     </nav>
   );
 };
