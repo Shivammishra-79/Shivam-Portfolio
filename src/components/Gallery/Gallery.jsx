@@ -10,11 +10,31 @@ import img7 from "../../assets/Gallery_Img/7.png";
 import img8 from "../../assets/Gallery_Img/8.png";
 import img9 from "../../assets/Gallery_Img/9.png";
 import img10 from "../../assets/Gallery_Img/10.png";
+import img11 from "../../assets/Gallery_Img/11.png";
+import img12 from "../../assets/Gallery_Img/12.png";
+import img13 from "../../assets/Gallery_Img/13.png";
+import img14 from "../../assets/Gallery_Img/14.png";
+import img15 from "../../assets/Gallery_Img/15.png";
+import img16 from "../../assets/Gallery_Img/16.png";
+import img17 from "../../assets/Gallery_Img/17.png";
+import img18 from "../../assets/Gallery_Img/18.png";
+import img19 from "../../assets/Gallery_Img/19.png";
+import img20 from "../../assets/Gallery_Img/20.png";
+import img21 from "../../assets/Gallery_Img/21.png";
+import img22 from "../../assets/Gallery_Img/22.png";
+import img23 from "../../assets/Gallery_Img/23.png";
+import img24 from "../../assets/Gallery_Img/24.png";
+import img25 from "../../assets/Gallery_Img/25.png";
+import img26 from "../../assets/Gallery_Img/26.png";
+import img27 from "../../assets/Gallery_Img/27.png";
+import img28 from "../../assets/Gallery_Img/28.png";
+
+
 
 const Gallery = () => {
   const [selectedIndex, setSelectedIndex] = useState(null);
 
-  const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
+  const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img25, img26, img27, img28 ];
 
   // Escape key दबाने पर modal close
   useEffect(() => {
