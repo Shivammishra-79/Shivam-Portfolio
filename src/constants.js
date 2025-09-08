@@ -32,7 +32,7 @@ import csharpLogo from './assets/tech_logo/csharp.png';
 // Experience Section Logo's
 import CodeLogo from './assets/company_logo/Codelogo.png';
 import AcidLogo from './assets/company_logo/Acidlogo.png';
-import GraLogo from './assets/company_logo/Gralogo.png';
+//import GraLogo from './assets/company_logo/Gralogo.png';
 
 // Education Section Logo's
 import MumLogo from './assets/education_logo/Mumlogo.png';
@@ -47,8 +47,8 @@ import RLogo from './assets/work_logo/R.png';
 import AliLogo from './assets/work_logo/Ali.png';
 import NLogo from './assets/work_logo/N.png';
 import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+//import imagesearchLogo from './assets/work_logo/image_search.png';
+//import removebgLogo from './assets/work_logo/remove_bg.png';
 
 //Certification Logo's 
 
@@ -179,7 +179,7 @@ export const education = [
     img: MgkLogo,
     school: "Mahatma Gandhi Kashi Vidyapith University",
     date: "Jul 2019 - Dec 2022",
-    grade: "72 %",
+    grade: "71 %",
     desc: "Completed a comprehensive undergraduate program focused on computer applications, programming, and information technology. The curriculum covered programming languages, database systems, operating systems, computer networks, software engineering, mathematics, and web development, complemented by practical lab work and project-based learning. Gained a strong foundation in application development, logical reasoning, and technical problem-solving, with the ability to design and implement efficient, user-focused software solutions.",
     degree: "Bachelor of Computer Application - BCA",
   },
@@ -264,17 +264,18 @@ export const projects = [
       github: "https://github.com/Shivammishra-79/Netflix-clone",
       webapp: "https://netflix-clone-kohl-psi.vercel.app/",
     },
-    /*
+    
     {
       id: 6,
-      title: "Coding Master",
+      title: "Professional Calculator App",
       description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
+      "A sleek, modern calculator app for Android with a professional dark theme and smooth animations ## Features- ✨ **Modern UI Design** - Dark gradient theme with glowing elements- 🎯 **Professional Layout** - Circular buttons with color-coded functions- 🧮 **Full Calculator Functions** - Basic arithmetic, percentage, plus/minus- 📱 **Dual Display** - Expression history and main result display- 🎨 **Smooth Animations** - Button press effects and transitions- 📐 **Responsive Design** - Works on different screen sizes",
       image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
+      tags: ["Java", "Android Studio", " XML Layouts with custom drawables"],
+      github: "https://github.com/Shivammishra-79/android-calculator-app",
+      webapp: "https://drive.google.com/file/d/1HDftqBt1iHg2dEQH_dgz8LS9EZD_2bIm/view?usp=drive_link",
     },
+    /*
     {
       id: 7,
       title: "Image Search App",
