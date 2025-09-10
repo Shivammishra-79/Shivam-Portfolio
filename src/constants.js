@@ -170,7 +170,7 @@ export const education = [
     img: MumLogo,
     school: "University of Mumbai",
     date: "Aug 2023 - Jul 2025",
-    grade: "8.66 CGPA",
+    grade: "8.6 CGPA",
     desc:  "Completed a comprehensive postgraduate program focused on advanced computer science concepts, software development, and IT management. The curriculum covered programming, database systems, operating systems, networking, software engineering, project management, and emerging technologies, complemented by practical lab work and industry-oriented projects. Gained strong problem-solving skills, analytical thinking, and proficiency in developing robust, scalable, and innovative software solutions.",
     degree: "Master of Computer Applications - MCA",
   },
