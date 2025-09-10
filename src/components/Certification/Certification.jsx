@@ -21,8 +21,9 @@ const Certification = () => {
         {certifications.map((cert) => (
           <div
             key={cert.id}
-            className="p-6 rounded-2xl shadow-lg border border-gray-700 bg-gray-900 
-                       backdrop-blur-md transition-transform transform hover:scale-105"
+            className="p-6 rounded-2xl shadow-2xl border border-white bg-gray-900 
+                       backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] 
+                       transform transition-transform duration-300 hover:scale-105"
           >
             {/* Logo */}
             <div className="w-16 h-16 mx-auto mb-4 bg-white rounded-md overflow-hidden">
