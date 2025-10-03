@@ -23,7 +23,7 @@ const Footer = () => {
     { icon: <FaFacebook />, link: "https://www.facebook.com/Shivammishra.7317/" },
     { icon: <FaTwitter />, link: "https://x.com/Sammishra79" },
     { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/sammishr/" },
-    { icon: <FaInstagram />, link: "https://www.instagram.com/shivam_m1shra/" },
+    { icon: <FaInstagram />, link: "https://www.instagram.com/shivam.____.mishra/" },
     //{ icon: <FaYoutube />, link: "https://www.youtube.com/@SamMishra-r4h" },
   ];
 
