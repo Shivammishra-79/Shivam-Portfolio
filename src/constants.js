@@ -47,8 +47,8 @@ import RLogo from './assets/work_logo/R.png';
 import AliLogo from './assets/work_logo/Ali.png';
 import NLogo from './assets/work_logo/N.png';
 import cmLogo from './assets/work_logo/cm.png';
-//import imagesearchLogo from './assets/work_logo/image_search.png';
-//import removebgLogo from './assets/work_logo/remove_bg.png';
+import AdvLogo from './assets/work_logo/Adv.png';
+import EgLogo from './assets/work_logo/Eg.png';
 
 //Certification Logo's 
 
@@ -204,8 +204,28 @@ export const education = [
 ];
 
 export const projects = [
+  {
+  id: 0,
+  title: "Adv. Umesh Suryawanshi",
+  description:
+    "A comprehensive Full-Stack Legal ERP designed to digitize law practice operations. This system integrates a premium client portal for online session bookings . It includes a robust Admin Dashboard for managing services, blogs, and a financial ledger that automates GST-ready income and expense tracking.",
+  image: AdvLogo,
+  tags: ["React.js", "FastAPI", "Python", "TiDB Cloud", "MySQL", "Tailwind CSS", "Render"],
+  github: "https://github.com/Shivammishra-79// This Is Private Repo..",
+  webapp: "https://adv-surya.vercel.app/",
+},
     {
-      id: 0,
+      id: 1,
+      title: "EAGLE FORCESECURITY SERVICES PVT. LTD.",
+      description:
+          "Eagle Force is an all-in-one security and facility management powerhouse that automates CCTV surveillance, professional housekeeping, and society administration through a high-performance, interactive 'Cyber-UI' dashboard.",
+      image: EgLogo,
+      tags: ["React.js, Framer Motion, React Router v6, MS SQL Server, Supabase, Lucide Icons"],
+      github: "https://github.com/Shivammishra-79//This Is Private Repo..",
+      webapp: "https://www.eagleforce.in/",
+    },
+    {
+      id: 2,
       title: "SketchSence",
       description:
       "Created an AI-based SketchSense using React, TypeScript, and Vite (frontend), with Python, FastAPI, and Gemini API (backend). Features include OCR, handwriting recognition, and real-time problem solving. Demonstrated proficiency in REST API integration, modular architecture, and AI application in EdTech.",
@@ -214,8 +234,10 @@ export const projects = [
       github:"https://github.com/Shivammishra-79/calc-fe-main",
       webapp: "https://s-ai-sketchsense.vercel.app/",
     },
+
+
     {
-      id: 1,
+      id: 3,
       title: "E-Learning Android App",
       description:
       "Developed a scalable e-learning application using Java, XML, and Android Studio. Followed SDLC best practices, integrated secure data handling, personalized learning paths, offline access, and intuitive UI/UX design. Applied OOP concepts and unit testing for performance optimization. ",
@@ -225,7 +247,7 @@ export const projects = [
       webapp: "",
     },
     {
-      id: 2,
+      id: 4,
       title: "Machine Learning Explorer Android App",
       description:
       "Built an ML-enabled app using Java, XML, and Google ML Kit APIs. Integrated face detection, image classification, and object recognition. Showcased skills in Android development, event-driven programming, and API integration ",
@@ -235,7 +257,7 @@ export const projects = [
       webapp: "",
     },
     {
-      id: 3,
+      id: 5,
       title: "Alien Escape Game",
       description:
       "Alien Escape is a fun 2D arcade game built with Python and Pygame, where the player controls a frog-like character to jump, collect coins, and escape enemies while aiming for the highest score. It features smooth controls, sound effects, double jumps, and a high score system, offering both entertainment and technical depth.",
@@ -245,7 +267,7 @@ export const projects = [
       webapp: "https://alien-escape.vercel.app/",
     },
     {
-      id: 4,
+      id: 6,
       title: "TastyBites",
       description:
       "Designed and developed a responsive restaurant website (‘TastyBites’) using HTML5, CSS3, and modern UI design principles.",
@@ -255,7 +277,7 @@ export const projects = [
       webapp: "https://restaurant-website-olive-phi.vercel.app/ ",
     },
     {
-      id: 5,
+      id: 7,
       title: "Netflix Clone website",
       description:
       "A responsive Netflix Clone website built using HTML, CSS (and JavaScript if used).This project replicates the UI design and layout of Netflix, focusing on modern web design principles such as responsiveness, clean layout, and engaging visuals.",
@@ -266,36 +288,14 @@ export const projects = [
     },
     
     {
-      id: 6,
+      id: 8,
       title: "Professional Calculator App",
-      description:
-      "A sleek, modern calculator app for Android with a professional dark theme and smooth animations ## Features- ✨ **Modern UI Design** - Dark gradient theme with glowing elements- 🎯 **Professional Layout** - Circular buttons with color-coded functions- 🧮 **Full Calculator Functions** - Basic arithmetic, percentage, plus/minus- 📱 **Dual Display** - Expression history and main result display- 🎨 **Smooth Animations** - Button press effects and transitions- 📐 **Responsive Design** - Works on different screen sizes",
+      description:"✨ Sleek dark-themed UI 🧮 Full arithmetic & % functions📱 History + Result dual display🎯 Smooth animations & responsive  ",    
       image: cmLogo,
       tags: ["Java", "Android Studio", " XML Layouts with custom drawables"],
       github: "https://github.com/Shivammishra-79/android-calculator-app",
       webapp: "https://drive.google.com/file/d/1HDftqBt1iHg2dEQH_dgz8LS9EZD_2bIm/view?usp=drive_link",
-    },
-    /*
-    {
-      id: 7,
-      title: "Image Search App",
-      description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
-    },*/
+    }
   ];  
 
 // certifications data

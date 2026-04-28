@@ -1,0 +1,1 @@
+#for run Open terminal: npm run dev

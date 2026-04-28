@@ -101,7 +101,7 @@ const About = () => {
           {/* About Me */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
             I’m Shivam Mishra, an MCA graduate from Mumbai University with a
-            CGPI: 8.6/10, passionate about building scalable and user-focused
+            CGPA of 8.66, passionate about building scalable and user-focused
             applications. Skilled in Java, C#, Python, and modern frameworks, I
             have hands-on experience in web, mobile, and API-based projects,
             along with databases, cloud technologies, and Agile development. I
@@ -111,7 +111,7 @@ const About = () => {
 
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1kxQXwHCNkON3WaPAXpX4JUrsCUxo4mvE/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1mG6NnebuiOob-ZiSZwCRixV7MMcclGAg/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
